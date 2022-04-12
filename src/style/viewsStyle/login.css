@@ -1,0 +1,181 @@
+#appLogin {
+  background-color: #35CCED;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  /* top: 609px; */
+}
+
+#login {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 0px;
+  background: #FFFFFF;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.textWelcome {
+  position: absolute;
+  width: 440px;
+  height: 118px;
+  left: 126px;
+  top: 162px;
+  font-family: Reem Ku;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+
+.positionImg {
+  position: absolute;
+  top: 282px;
+  left: 8%;
+}
+
+.textLogin {
+  position: absolute;
+  width: 252px;
+  height: 42px;
+  left: 100px;
+  top: 107px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+.bottomGoogle  {
+  /* position: absolute; */
+  width: 272px;
+  height: 56px;
+  left: 145px;
+  top: 193px;
+  background: #FFFFFF;
+  border: 1px solid #35CCED;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.bottomFacebook {
+  position: absolute;
+  width: 272px;
+  height: 56px;
+  left: 560px;
+  top: 193px;
+
+  background: #FFFFFF;
+  border: 1px solid #35CCED;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.bottomText {
+  position: absolute;
+  width: 159px;
+  height: 21px;
+  left: 50px;
+  /* top: 18px; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+  text-transform: capitalize;
+  justify-content: flex-start;
+}
+.possitionIconBottom {
+  margin-top: 0px;
+  margin-left: 0px;
+  max-width: 30px;
+}
+.textRegister {
+  position: absolute;
+  /* width: 55px; */
+  height: 22px;
+  left: 420px;
+  top: 350px;
+
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000;
+}
+
+.v-btn__content {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-box-pack: inherit;
+  -ms-flex-pack: inherit;
+  justify-content: flex-start;
+  line-height: normal;
+  position: relative;
+  -webkit-transition: inherit;
+  transition: inherit;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.v-btn::before {
+  background-color: #35CCED;
+}
+.v-btn i:hover{
+  transform: scale(1.15);
+  background: #35CCED;
+}
+
+.inputs {
+  margin-top: 400px;
+  margin-left: 165px;
+  margin-right: 355px;
+}
+
+.buttonRegister {
+  position: absolute;
+  width: 470px;
+  height: 65px!important;
+  left: 285px;
+  top: 768px;
+  background: #35CCED;
+}
+.textButtonRegister {
+  position: absolute;
+  width: 168px;
+  height: 28px;
+  left: 137px;
+  /* top: 577px; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}

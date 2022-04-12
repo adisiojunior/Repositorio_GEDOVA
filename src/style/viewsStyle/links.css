@@ -1,0 +1,77 @@
+.textTitle {
+  position: absolute;
+  /* width: 631px; */
+  height: 167px;
+  left: 242px;
+  top: 150px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 180px;
+  line-height: 167px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.065em;
+  color: #000000;
+}
+
+.divLinks {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 0px;
+  background: #FFFFFF;
+  border-radius: 40px 0px 0px 40px;
+  border: 2px solid black;
+}
+.possitionImg {
+  margin-top: 350px;
+  margin-left: 350px;
+}
+
+.cardNoticia {
+  width: 45%;
+  height: 10%;
+  margin-left: 3%;
+  margin-bottom: 32px;
+  margin-top: 8%;
+}
+.cardMaterial {
+  width: 45%;
+  height: 10%;
+  margin-left: 3%;
+  margin-bottom: 32px;
+  margin-top: 8%;
+}
+.cardSites {
+  width: 45%;
+  height: 10%;
+  margin-left: 3%;
+  margin-bottom: 32px;
+  margin-top: 8%;
+}
+
+.v-sheet.v-card {
+  border-radius: 10px;
+}
+
+.textLink {
+  position: absolute;
+  /* width: 117px; */
+  height: 18px;
+  left: 317px;
+  top: 30px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 18px;
+  /* identical to box height */
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+}

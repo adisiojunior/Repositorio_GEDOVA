@@ -1,0 +1,106 @@
+.textTitle {
+  position: absolute;
+  /* width: 631px; */
+  height: 167px;
+  left: 242px;
+  top: 50px;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 167px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.065em;
+
+  color: #000000;
+}
+
+.central {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 240px;
+  background: #35CCDE;
+  border-radius: 190px 0px 0px 0px;
+}
+
+.relatoOne {
+  width: 60%;
+  height: 20%;
+  top: 50px;
+  left: 250px;
+  margin-bottom: 24px;
+  border-radius: 90px;
+}
+.relatoTwo {
+  width: 60%;
+  height: 20%;
+  top: 50px;
+  left: 650px;
+  margin-bottom: 24px;
+}
+.relatoThree {
+  width: 60%;
+  height: 20%;
+  top: 50px;
+  left: 250px;
+  margin-bottom: 0px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+}
+.possitionAvatar {
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+.textRelato {
+  position: absolute;
+  width: 80%;
+  height: 77px;
+  left: 16.69%;
+  right: 27.39%;
+  top: 50px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #040405;
+}
+.textData {
+  position: absolute;
+  height: 18px;
+  left: 90%;
+  /* right: 89.21%; */
+  top: 150px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.933333px;
+  text-transform: uppercase;
+  color: #040405;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.v-sheet.v-card {
+  border-radius: 30px;
+}
